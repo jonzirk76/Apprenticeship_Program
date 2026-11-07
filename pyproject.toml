@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "engineering-apprentice"
+version = "0.1.0"
+description = "A local, independence-first open-source apprenticeship CLI"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+apprentice = "apprentice.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["apprentice*"]

@@ -1,0 +1,225 @@
+{
+  "candidates": [],
+  "examined": 22,
+  "eligible": 0,
+  "excluded": [
+    {
+      "id": 1,
+      "url": "https://github.com/simonw/sqlite-utils/issues/930",
+      "title": "FTS detection treats table names as LIKE patterns",
+      "observed_at": "2026-11-07T12:14:17+00:00",
+      "reasons": [
+        "An open pull request is linked from the issue timeline"
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://github.com/simonw/sqlite-utils/issues/928",
+      "title": "Contributing docs: local test runs silently skip SpatiaLite and ext.c tests, and the setup steps assume SSH and uv",
+      "observed_at": "2026-11-07T12:26:02+00:00",
+      "reasons": [
+        "Insufficient concrete reproduction evidence for this first attempt",
+        "An open pull request is linked from the issue timeline"
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://github.com/simonw/sqlite-utils/issues/922",
+      "title": "FTS4 triggers fail when indexed rows are updated or deleted",
+      "observed_at": "2026-11-07T12:14:21+00:00",
+      "reasons": [
+        "An open pull request is linked from the issue timeline"
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://github.com/simonw/sqlite-utils/issues/597",
+      "title": "Feature request: sqlite-utils insert-files should be able to convert fields",
+      "observed_at": "2026-11-07T12:14:24+00:00",
+      "reasons": [
+        "No clear defect report identified; defer feature/support requests",
+        "Comments indicate a claim or ongoing work; manual availability check required",
+        "An open pull request is linked from the issue timeline"
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://github.com/simonw/sqlite-utils/issues/916",
+      "title": "Tests use CliRunner.isolated_filesystem(), which is deprecated and will be removed in Click 9.0",
+      "observed_at": "2026-11-07T12:14:26+00:00",
+      "reasons": [
+        "An open pull request is linked from the issue timeline"
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://github.com/simonw/sqlite-utils/issues/914",
+      "title": "lookup() treats ordinary and partial indexes as unique lookup constraints",
+      "observed_at": "2026-11-07T12:14:28+00:00",
+      "reasons": [
+        "An open pull request is linked from the issue timeline"
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://github.com/simonw/sqlite-utils/issues/912",
+      "title": "Avoid quadratic suffix scans when deduplicating query column names",
+      "observed_at": "2026-11-07T12:14:30+00:00",
+      "reasons": [
+        "No clear defect report identified; defer feature/support requests",
+        "Insufficient concrete reproduction evidence for this first attempt",
+        "An open pull request is linked from the issue timeline"
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://github.com/simonw/sqlite-utils/issues/910",
+      "title": "Repeated Table.convert() runs an earlier callable with the same name",
+      "observed_at": "2026-11-07T12:14:32+00:00",
+      "reasons": [
+        "No clear defect report identified; defer feature/support requests",
+        "An open pull request is linked from the issue timeline"
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://github.com/simonw/sqlite-utils/issues/907",
+      "title": "rows_from_file() splits a single-column CSV file on a letter, or raises csv.Error",
+      "observed_at": "2026-11-07T12:14:34+00:00",
+      "reasons": [
+        "An open pull request is linked from the issue timeline"
+      ]
+    },
+    {
+      "id": 10,
+      "url": "https://github.com/simonw/sqlite-utils/issues/308",
+      "title": "Add an interactive tutorial as a Jupyter notebook",
+      "observed_at": "2026-11-07T12:26:02+00:00",
+      "reasons": [
+        "No clear defect report identified; defer feature/support requests",
+        "Insufficient concrete reproduction evidence for this first attempt",
+        "No clear target engineering concept identified",
+        "Comments indicate a claim or ongoing work; manual availability check required"
+      ]
+    },
+    {
+      "id": 11,
+      "url": "https://github.com/simonw/sqlite-utils/issues/902",
+      "title": "enable_fts() exhausts iterator columns before populating the index",
+      "observed_at": "2026-11-07T12:14:39+00:00",
+      "reasons": [
+        "An open pull request is linked from the issue timeline"
+      ]
+    },
+    {
+      "id": 12,
+      "url": "https://github.com/simonw/sqlite-utils/issues/900",
+      "title": "Contributor docs build command omits the docs dependency group",
+      "observed_at": "2026-11-07T12:14:41+00:00",
+      "reasons": [
+        "An open pull request is linked from the issue timeline"
+      ]
+    },
+    {
+      "id": 13,
+      "url": "https://github.com/simonw/sqlite-utils/issues/815",
+      "title": "delete_where() fails to commit in 3.x",
+      "observed_at": "2026-11-07T12:26:02+00:00",
+      "reasons": [
+        "Insufficient concrete reproduction evidence for this first attempt"
+      ]
+    },
+    {
+      "id": 14,
+      "url": "https://github.com/simonw/sqlite-utils/issues/890",
+      "title": "insert --csv drops values past the header, rows_from_file raises for the same input",
+      "observed_at": "2026-11-07T12:26:02+00:00",
+      "reasons": [
+        "An open pull request is linked from the issue timeline"
+      ]
+    },
+    {
+      "id": 15,
+      "url": "https://github.com/simonw/sqlite-utils/issues/887",
+      "title": "analyze_column() mis-handles columns containing nulls",
+      "observed_at": "2026-11-07T12:26:02+00:00",
+      "reasons": [
+        "An open pull request is linked from the issue timeline"
+      ]
+    },
+    {
+      "id": 16,
+      "url": "https://github.com/simonw/sqlite-utils/issues/358",
+      "title": "Support for CHECK constraints",
+      "observed_at": "2026-11-07T12:26:02+00:00",
+      "reasons": [
+        "Appears to be a usage question or feature request rather than a bounded bug",
+        "Insufficient concrete reproduction evidence for this first attempt"
+      ]
+    },
+    {
+      "id": 17,
+      "url": "https://github.com/simonw/sqlite-utils/issues/796",
+      "title": "Add bundled binary for CLI using PyInstaller",
+      "observed_at": "2026-11-07T12:26:02+00:00",
+      "reasons": [
+        "No clear defect report identified; defer feature/support requests",
+        "Scope may exceed several focused sessions; defer for manual qualification"
+      ]
+    },
+    {
+      "id": 18,
+      "url": "https://github.com/simonw/sqlite-utils/issues/147",
+      "title": "SQLITE_MAX_VARS maybe hard-coded too low",
+      "observed_at": "2026-11-07T12:26:02+00:00",
+      "reasons": [
+        "Appears to be a usage question or feature request rather than a bounded bug",
+        "Insufficient concrete reproduction evidence for this first attempt",
+        "An open pull request is linked from the issue timeline"
+      ]
+    },
+    {
+      "id": 19,
+      "url": "https://github.com/simonw/sqlite-utils/issues/611",
+      "title": "`.transform()` effect on triggers and indices",
+      "observed_at": "2026-11-07T12:26:02+00:00",
+      "reasons": [
+        "Scope may exceed several focused sessions; defer for manual qualification",
+        "An open pull request is linked from the issue timeline"
+      ]
+    },
+    {
+      "id": 20,
+      "url": "https://github.com/simonw/sqlite-utils/issues/242",
+      "title": "Async support",
+      "observed_at": "2026-11-07T12:26:02+00:00",
+      "reasons": [
+        "Appears to be a usage question or feature request rather than a bounded bug",
+        "No clear defect report identified; defer feature/support requests",
+        "Insufficient concrete reproduction evidence for this first attempt",
+        "Scope may exceed several focused sessions; defer for manual qualification"
+      ]
+    },
+    {
+      "id": 21,
+      "url": "https://github.com/simonw/sqlite-utils/issues/728",
+      "title": "Auto-generate ULID as Primary Keys on Bulk Insert",
+      "observed_at": "2026-11-07T12:26:02+00:00",
+      "reasons": [
+        "Scope may exceed several focused sessions; defer for manual qualification"
+      ]
+    },
+    {
+      "id": 22,
+      "url": "https://github.com/simonw/sqlite-utils/issues/651",
+      "title": "How to insert the vector embeddings values into a table?",
+      "observed_at": "2026-11-07T12:26:02+00:00",
+      "reasons": [
+        "Appears to be a usage question or feature request rather than a bounded bug"
+      ]
+    }
+  ],
+  "warnings": [
+    "Saved observations may be stale; select rechecks availability."
+  ]
+}

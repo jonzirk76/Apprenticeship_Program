@@ -1,0 +1,12 @@
+{
+  "concept_weights": {
+    "automated testing": 5,
+    "error handling": 4,
+    "SQL and data modeling": 4,
+    "APIs and integration": 5,
+    "serialization and validation": 4,
+    "compatibility": 3,
+    "async and concurrency": 2,
+    "CI and packaging": 4
+  }
+}
